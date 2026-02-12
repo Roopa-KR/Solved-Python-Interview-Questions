@@ -3,7 +3,7 @@
 lst1="a,b,c,a,b,c,a,b,c,a,b"
 lst2=lst1.split(",")
 visited=[]
-for ch in lst2:
-    if ch  not in visited:
-        visited.append(ch)
-        print(f"{ch}:{lst2.count(ch)}",end=" ")
+for char in lst2:
+    if char  not in visited:
+        visited.append(char) # Adding unique values to variable visit
+        print(f"{char}:{lst2.count(ch)}",end="  ") 
