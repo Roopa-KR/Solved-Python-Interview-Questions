@@ -1,8 +1,9 @@
-import textwrap
-def textwrp(string , max_width):
-    return textwrap.fill(string,max_width)
-if __name__=="__main__":
-    string=input('enter a string : ')
-    max_width=int(input())
-    print(textwrp(string,max_width))
+num=int(input("Enter a number: "))
+if num > 1:
+    for i in range(2,num):
+        if (num % i) == 0:
+            print(num,"is not a prime number")
+            break
+    else:
+        print(num,"is a prime number")
     
