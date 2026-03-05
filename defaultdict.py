@@ -11,4 +11,6 @@ for w in range(m):
 for word in words:
     if word in d:
         print(*d[word])
+    else:
+        print(-1)
     
