@@ -1,5 +1,5 @@
-LEFT – Widget Position
-#Description: Places widgets to the left side using pack.
+#Right – Widget Position
+#Description: Places widgets to the right side using pack.
 
 from tkinter import *
 
